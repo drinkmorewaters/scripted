@@ -91,7 +91,6 @@ then
 fi
 
 echo "Installing Scrypted..."
-RUN npx -y scrypted@latest install-server
 
 cat > ~/Library/LaunchAgents/app.scrypted.server.plist <<EOT
 <?xml version="1.0" encoding="UTF-8"?>
